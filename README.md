@@ -43,5 +43,14 @@ The game used the applicants' CVs and the selected company's (I chose Google) as
    2. Can you give a real-world example of a biased machine learning model, and share your ideas on how you make this model more fair, inclusive, and equitable? Please reflect on why you selected this specific biased model.
 
 I've read some news articles in the past year about how facial recognition machine learning models are often biased, which leads to harsher punishments for the group it's biased against (POC, certain locations, etc). I think that to make this model more fair, inclusive, and equitable, the people making it should include cautionary warnings about possible discrimination to make the users aware (model cards?), examining the data collected for training for bias, and paying more attention to the groups with the worst accuracy/performance. I chose this specific biased model because the context seems particular relevant when looking at the past year.
-        
- 
+
+2/17/21:
+
+Fully Connected Neural Network
+1. Architecture: series of fully connected layers that connect every neuron in one layer to every neuron in the next layer
+2. No assumptions made about what the input is
+
+Convolutional Neural Network
+1. Architecture: input image -> convolution layer -> pooling layer -> fully connected layer
+2. Each neuron is only connected to a few nearby neurons
+3. Assume input is an image?
