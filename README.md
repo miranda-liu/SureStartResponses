@@ -49,8 +49,17 @@ I've read some news articles in the past year about how facial recognition machi
 Fully Connected Neural Network
 1. Architecture: series of fully connected layers that connect every neuron in one layer to every neuron in the next layer
 2. No assumptions made about what the input is
+3. Applications: used for deep learning
 
 Convolutional Neural Network
 1. Architecture: input image -> convolution layer -> pooling layer -> fully connected layer
 2. Each neuron is only connected to a few nearby neurons
 3. Assume input is an image?
+4. Applications: image classification through identifying features in input images
+
+Description of layers and roles:
+1. Convolutional layer -> passes a filter over the image, then scans a few pixels at a time and creates a feature map predicting the class that each feature belongs to
+2. Pooling layer -> the downsampling; reduces amount of info in each feature coming from convolution and keeps only the most important info
+3. Fully Connected input layer -> flattens the outputs from earlier layers forming a single vector (becomes input later)
+4. Fully Connected layer -> takes inputs from feature analysis and applies weights to predict the correct label
+5. Fully Connected output layer -> gives you the final probabilities for each label (identifying the image)
