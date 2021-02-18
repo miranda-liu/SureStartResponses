@@ -21,7 +21,7 @@ Tensors are the mathematical representation of a physical thing that can be desc
 
    2. What did you notice about the computations that you ran in the TensorFlow programs (i.e. interactive models) in the tutorial?
 
-When running the computations in the tutorial, I noticed that **COME BACK TO FINISH
+The computations in the TensorFlow programs involved mainly vectors/tensors represented as arrays. They noted that TensorFlow has a "lazy evaluation" because if you did result = tf.multiply(x1, x2) it wouldn't actually calculate the result, only defines the model. **When I tried to implement it in TensorFlow 2.0, I think that the newer version is now using "eager execution."?
 
 2/11/21: 
     -Problem: predict potential wildfire locations across the U.S. based on precipitation, air temperatures, land surface temperatures, and heat wave dates
