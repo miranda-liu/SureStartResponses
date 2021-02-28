@@ -70,3 +70,5 @@ Description of layers and roles:
 3. One use case for the ReLU is in the hidden layers of a neural network.
 
 
+2/25/21:
+Changing the loss to regression based functions (both mean squared error and mean absolute error) on the housing prices model from yesterday made them more accurate.
