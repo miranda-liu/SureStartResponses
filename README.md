@@ -63,3 +63,10 @@ Description of layers and roles:
 3. Fully Connected input layer -> flattens the outputs from earlier layers forming a single vector (becomes input later)
 4. Fully Connected layer -> takes inputs from feature analysis and applies weights to predict the correct label
 5. Fully Connected output layer -> gives you the final probabilities for each label (identifying the image)
+
+
+2/23/21:
+1. Advantages of the Rectified Linear activation function include: avoiding and fixing the problem of the vanishing gradient, and also requires less computational power than tanh and sigmoid because it has simpler mathematical operations.
+3. One use case for the ReLU is in the hidden layers of a neural network.
+
+
